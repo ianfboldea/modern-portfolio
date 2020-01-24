@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/portrait_001.png");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -89,6 +89,9 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
+
+.nav-item:nth-child(5) {
+  transition-delay: 0.5s; }
 
 * {
   box-sizing: border-box; }
@@ -267,7 +270,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait_001_small.png");
       width: 150px;
       height: 150px; }
   .about-info {
